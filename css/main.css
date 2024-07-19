@@ -1,0 +1,119 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    padding: 0 10em;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+}
+.image-icon{
+    height: 3em;
+}
+.background-image {
+    width: 100%;
+    height: 40em;
+    background-image: url('../img/banner/banner4-4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.title-underline{
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.introduction-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 40%;
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal-img{
+    height: 8em;
+    margin-top: 1em;
+}
+.my-img{
+    border-radius: 100%;
+}
+.personal-text{
+    margin-top: 30px;
+    display: flex;
+    padding: 0 5em;
+    text-align: justify;
+}
+.about-me{
+    margin-top: 0.5em;
+}
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7em;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+}
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transform: translateY(-50%);
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+}
+.carousel-button.prev {
+    left: 10px;
+}
+.carousel-button.next {
+    right: 10px;
+}
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+}
+.personal-info{
+    margin-top: 7em;
+    margin-bottom: 10em;
+}
